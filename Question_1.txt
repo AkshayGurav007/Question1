@@ -1,0 +1,59 @@
+ servers are facing heavy loads recently, and because of the overload, all servers are down.
+As head of the server management team, your task is to report to management the optimal way to use the servers and reduce the load.
+
+There are total n servers with m1, m2 .. mn users logged in each of them.
+
+Note: you can only optimize servers individually as different servers belong to different departments, and you can't interchange users in different servers.
+
+Each user uses a particular RAM, and everyone has been assigned a priority number which denotes value added by their task to the project for the current week.
+
+Example:
+3 servers:
+
+server 1:
+==================================================
+10 users:
+server capacity: 32 GB
+
+priority number of their task for the coming week:
+[10, 15, 10, 9, 2, 3, 3, 11, 25, 7]
+
+RAM usage of thier task(in GB):
+[5, 10, 11, 25, 10, 5, 2, 8, 10, 11]
+
+server 2:
+==================================================
+5 users:
+server capacity: 16 GB
+
+priority number of their task for the coming week:
+[10, 9, 2, 3, 7]
+
+RAM usage of their task(in GB):
+[5, 10, 2, 8, 6]
+
+server 3:
+==================================================
+10 users:
+server capacity: 64 GB
+
+priority number of their task for the coming week:
+[1, 5, 7, 8, 2, 3, 3, 10, 5, 7]
+
+RAM usage of thier task(in GB):
+[15, 19, 11, 12, 10, 12, 10, 8, 10, 11]
+
+Managers want to know the optimal value that can be added to each project by using the servers to optimal capacity.
+
+Finally, also find out the total value added by all the projects.
+Value is the sum of the priority number of users who could complete their tasks for the week.
+
+Your task is following:
+Take input from user for number of servers,
+Then for each server
+Take input from user for number of user,
+Take input from user for an array denoting priority number for each user,
+Take input from user for an array denoting RAM usage for each user,
+
+Then print value added for each project
+Print Total value added by all project for a week.
